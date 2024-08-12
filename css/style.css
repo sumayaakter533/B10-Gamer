@@ -5,6 +5,12 @@ body {
 /* todo: Added Google font - Work sans */
 
 /* todo: Some common/shared css */
+:root {
+    --primary-color: #3c354f;
+}
+html {
+    font-size: 16px;
+}
 * {
     padding: 0;
     margin: 0;
@@ -28,3 +34,58 @@ ol {
     margin: 0 auto;
 }
 /* todo: end of common/shared css */
+
+/* todo: navbar css start */
+.nav-container {
+    display: flex;
+    padding: 2.25rem 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-brand a {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.nav-brand a > span {
+    font-weight: 700;
+    font-size: 2.875rem;
+}
+.nav-brand a > span::first-letter {
+    color: #ff42a5;
+}
+
+.nav-content ul {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-content ul li a {
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: var(--primary-color);
+}
+.nav-icons {
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 1.125rem;
+    padding: 0.875rem 1.5rem;
+    color: var(--primary-color);
+    background-color: rgba(11, 2, 35, 0.1);
+    align-items: center;
+    display: flex;
+}
+
+.youtube-icon {
+    font-size: 2rem;
+    color: #f61c0d;
+    margin: 0 1rem 0 1.5rem;
+}
+.tiktok-icon {
+    color: #000;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 1px red, -1px -1px 1px #5ce1e6;
+}
+/* todo: navbar css end */
