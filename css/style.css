@@ -232,7 +232,7 @@ ol {
 
 /* todo: online game part start */
 #online-game-part {
-    padding: 4.5rem 0;
+    padding: 4.5rem 0 0;
 }
 .online-game-heading {
     text-align: center;
@@ -302,5 +302,48 @@ ol {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
-
 /* todo: online game part end */
+
+/* todo: play instantly part start */
+.play-instantly-container {
+    padding: 6rem 0 10rem;
+    display: flex;
+    gap: 7.5rem;
+}
+.play-instantly-text-contents {
+    width: 50%;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+.play-instantly-text-contents h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: #f948b2;
+}
+.play-instantly-text-contents h2 > span {
+    display: block;
+    color: var(--primary-color);
+}
+.play-instantly-text-contents p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: var(--secondary-color);
+    padding-left: 12rem;
+}
+.play-instantly-img-contents {
+    padding-left: 9rem;
+    position: relative;
+    width: 50%;
+}
+.angela-img-width {
+    width: 320px;
+    position: absolute;
+    left: 0;
+    bottom: -4.75rem;
+}
+/* todo: play instantly part end */
