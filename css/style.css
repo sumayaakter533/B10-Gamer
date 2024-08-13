@@ -306,7 +306,7 @@ ol {
 
 /* todo: play instantly part start */
 .play-instantly-container {
-    padding: 6rem 0 10rem;
+    padding: 6rem 0 12rem;
     display: flex;
     gap: 7.5rem;
 }
@@ -347,3 +347,44 @@ ol {
     bottom: -4.75rem;
 }
 /* todo: play instantly part end */
+
+/* todo: play games part start */
+.play-games-container {
+    padding-bottom: 12rem;
+    display: flex;
+    gap: 7.5rem;
+}
+.play-games-img-contents {
+    padding-right: 9rem;
+    position: relative;
+    width: 50%;
+}
+.girl-with-cat-img-width {
+    width: 320px;
+    position: absolute;
+    right: 0;
+    bottom: -4.75rem;
+}
+.play-games-text-contents {
+    width: 30%;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.play-games-text-contents h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: #f948b2;
+}
+.play-games-text-contents h2 > span {
+    color: var(--primary-color);
+}
+.play-games-text-contents p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: var(--secondary-color);
+}
+/* todo: play games part end */
