@@ -471,5 +471,77 @@ ol {
     line-height: 1.5rem;
     color: var(--primary-color);
 }
-
 /* todo: game badges part end */
+
+/* todo: footer part start */
+#footer-section {
+    padding: 6.5rem 0;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+.footer-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-header > img {
+    width: 5.5rem;
+    height: 2.5rem;
+    margin-right: 1.25rem;
+}
+.footer-header span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.875rem;
+}
+.footer-header span::first-letter {
+    color: #ff42a5;
+}
+
+/* * footer links */
+.footer-links {
+    gap: 3.75rem;
+    display: flex;
+    justify-content: center;
+    margin: 3.5rem 0;
+}
+.footer-links > li > a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+
+/* * footer icons */
+.footer-icons {
+    gap: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+.footer-icons i {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+/* * footer policy css */
+.footer-policy {
+    gap: 3.75rem;
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0 2rem;
+}
+.footer-policy > li > a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+/* * footer btm css */
+.footer-btm p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+/* todo: footer part end */
