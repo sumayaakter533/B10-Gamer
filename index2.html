@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .one {
+                height: 400px;
+                width: 600px;
+                border: 5px solid;
+                background-image: linear-gradient(
+                    to right,
+                    red 20%,
+                    blue 30% 50%,
+                    green 60%
+                );
+            }
+
+            .two {
+                margin-top: 40px;
+                height: 400px;
+                width: 600px;
+                border: 5px solid;
+                display: flex;
+            }
+            .two > .child {
+                width: 200px;
+                height: 380px;
+                border: 10px solid;
+            }
+            .two1 {
+                background-color: red;
+            }
+            .two2 {
+                background-color: blue;
+            }
+            .two3 {
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="one"></div>
+        <div class="two">
+            <div class="two1 child"></div>
+            <div class="two2 child"></div>
+            <div class="two3 child"></div>
+        </div>
+    </body>
+</html>

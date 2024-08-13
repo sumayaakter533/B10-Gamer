@@ -38,6 +38,9 @@ ol {
 /* todo: end of common/shared css */
 
 /* todo: navbar css start */
+#nav-section{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
 .nav-container {
     display: flex;
     padding: 2.25rem 0;
