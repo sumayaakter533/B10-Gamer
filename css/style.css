@@ -6,7 +6,8 @@ body {
 
 /* todo: Some common/shared css */
 :root {
-    --primary-color: #3c354f;
+    --special-color: #3c354f;
+    --primary-color: #0b0223;
     --secondary-color: #534c64;
 }
 html {
@@ -111,11 +112,11 @@ ol {
     justify-content: center;
 }
 .banner-text h1 {
-    color: #0b0223;
     font-size: 3rem;
     font-weight: 600;
     line-height: 3.5rem;
     text-transform: uppercase;
+    color: var(--primary-color);
 }
 .banner-text h1 > span {
     display: block;
@@ -148,10 +149,10 @@ ol {
     line-height: 21px;
     border-radius: 50%;
     text-align: center;
-    border: 2px solid #0b0223;
+    border: 2px solid var(--primary-color);
 }
 .banner-text .user-icon {
-    color: #0b0223;
+    color: var(--primary-color);
 }
 .banner-text .banner-btn > a {
     color: #fff;
@@ -228,3 +229,78 @@ ol {
     display: block;
 }
 /* todo: we're gamer part end */
+
+/* todo: online game part start */
+#online-game-part {
+    padding: 4.5rem 0;
+}
+.online-game-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.online-game-heading h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: var(--primary-color);
+}
+.online-game-heading h2 > span {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-game-heading p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: var(--secondary-color);
+}
+
+.online-game-inner {
+    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card-img {
+    position: relative;
+}
+.card-img-overly {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: all linear 0.4s;
+    transform: scale(0);
+}
+.card-img:hover .card-img-overly {
+    transform: scale(1);
+}
+.card-text p {
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
+    line-height: 1.875rem;
+    color: var(--secondary-color);
+}
+.card-img-overly a {
+    color: #ff42a5;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+.card-img-overly a > i {
+    color: #fff;
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* todo: online game part end */
