@@ -38,7 +38,7 @@ ol {
 /* todo: end of common/shared css */
 
 /* todo: navbar css start */
-#nav-section{
+#nav-section {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
 }
 .nav-container {
@@ -96,16 +96,9 @@ ol {
 /* todo: navbar css end */
 
 /* todo: banner css start */
-#banner-part {
-    background: linear-gradient(
-        235.41deg,
-        rgba(140, 87, 238, 0.025) 3.9%,
-        rgba(241, 68, 174, 0.025) 100.56%
-    );
-    padding-top: 1.25rem;
-}
 .banner-container {
     display: flex;
+    padding-top: 1.25rem;
     justify-content: space-between;
     flex-wrap: wrap;
 }
