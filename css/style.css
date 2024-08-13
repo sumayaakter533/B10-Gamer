@@ -7,6 +7,7 @@ body {
 /* todo: Some common/shared css */
 :root {
     --primary-color: #3c354f;
+    --secondary-color: #534c64;
 }
 html {
     font-size: 16px;
@@ -126,14 +127,14 @@ ol {
     -webkit-text-fill-color: transparent;
 }
 .banner-text ul > li {
-    color: #534c64;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    gap: 4px;
-    display: grid;
-    grid-template-columns: 30px auto;
     margin-bottom: 1rem;
+    color: var(--secondary-color);
+    grid-template-columns: 30px auto;
+    display: grid;
+    gap: 4px;
 }
 .banner-text ul li > i {
     color: #ff42a5;
@@ -161,10 +162,69 @@ ol {
     margin-right: 1.5rem;
     margin-top: 1.5rem;
     padding: 1.25rem 2.5rem;
-    transition: all linear 0.4s;
     background-color: #ff42a5;
 }
 .banner-text .banner-btn > .rogue-btn-color {
     background-color: #4ec5f7;
 }
 /* todo: banner css end */
+
+/* todo: we're gamer part start */
+.gamer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gamer-img-contents {
+    display: flex;
+    align-items: center;
+}
+.gamer-text-contents {
+    width: 520px;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 4.5rem 0 3.5rem;
+}
+.gamer-text-contents h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-text-contents p {
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 1.125rem;
+    padding: 1.5rem 0 2rem;
+    color: var(--secondary-color);
+}
+.gamer-text-contents > a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    border-radius: 3rem;
+    background-color: #ff42a5;
+    padding: 1.25rem 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 13rem;
+}
+.gamer-text-contents h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+    color: var(--secondary-color);
+}
+.gamer-text-contents h3 > span {
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+}
+/* todo: we're gamer part end */
