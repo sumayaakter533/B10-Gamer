@@ -388,3 +388,62 @@ ol {
     color: var(--secondary-color);
 }
 /* todo: play games part end */
+
+/* todo: career part start */
+#career-part {
+    background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+}
+.career-container {
+    display: flex;
+    position: relative;
+}
+.career-img-contents {
+    width: 56%;
+    position: absolute;
+    right: -5rem;
+    top: 0;
+}
+.career-text-contents {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.5rem 0;
+}
+.career-text-contents h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: #fff;
+}
+.career-text-contents p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    padding: 1.5rem 2rem 2rem 0;
+    color: #fff;
+}
+.career-options {
+    display: flex;
+    justify-content: space-between;
+}
+.career-option-country {
+    text-align: right;
+}
+.career-options ul > li {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+.career-btn > a {
+    color: #ff42a5;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding: 1.25rem 2.5rem;
+    background-color: #ffffff;
+    border-radius: 3rem;
+    margin-top: 2.5rem;
+}
+/* todo: career part end */
