@@ -447,3 +447,29 @@ ol {
     margin-top: 2.5rem;
 }
 /* todo: career part end */
+
+/* todo: game badges part start */
+.game-badges-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    padding: 6.5rem 0;
+    gap: 2rem;
+}
+.game-badge {
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.game-badge > img {
+    width: 60px;
+}
+.game-badge > span {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--primary-color);
+}
+
+/* todo: game badges part end */
