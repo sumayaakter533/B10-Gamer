@@ -96,6 +96,10 @@ ol {
 /* todo: navbar css end */
 
 /* todo: banner css start */
+#banner-part {
+    background: url('../images/banner-bg.png') center no-repeat;
+    background-size: cover;
+}
 .banner-container {
     display: flex;
     padding-top: 1.25rem;
