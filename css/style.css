@@ -110,6 +110,7 @@ ol {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;
 }
 .banner-text h1 {
     font-size: 3rem;
@@ -154,19 +155,25 @@ ol {
 .banner-text .user-icon {
     color: var(--primary-color);
 }
+.banner-text .banner-btn {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
 .banner-text .banner-btn > a {
     color: #fff;
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 1.5rem;
     border-radius: 3rem;
-    margin-right: 1.5rem;
-    margin-top: 1.5rem;
     padding: 1.25rem 2.5rem;
     background-color: #ff42a5;
 }
 .banner-text .banner-btn > .rogue-btn-color {
     background-color: #4ec5f7;
+}
+.banner-img {
+    width: 50%;
 }
 /* todo: banner css end */
 
