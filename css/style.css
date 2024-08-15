@@ -507,10 +507,11 @@ ol {
 
 /* * footer links */
 .footer-links {
-    gap: 3.75rem;
-    display: flex;
+    display: grid;
+    padding: 3.5rem 0;
+    grid-template-columns: repeat(6, auto);
     justify-content: center;
-    margin: 3.5rem 0;
+    gap: 3.75rem;
 }
 .footer-links > li > a {
     color: #fff;
@@ -522,7 +523,8 @@ ol {
 /* * footer icons */
 .footer-icons {
     gap: 2.5rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
     justify-content: center;
 }
 .footer-icons i {
@@ -533,9 +535,10 @@ ol {
 /* * footer policy css */
 .footer-policy {
     gap: 3.75rem;
-    display: flex;
+    display: grid;
+    padding: 4rem 0 2rem;
+    grid-template-columns: repeat(4, auto);
     justify-content: center;
-    margin: 4rem 0 2rem;
 }
 .footer-policy > li > a {
     color: rgba(255, 255, 255, 0.6);

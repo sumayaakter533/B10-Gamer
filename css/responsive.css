@@ -128,4 +128,202 @@
         padding: 1rem 2rem;
         font-size: 0.875rem;
     }
+
+    /* todo: we're gamer part start */
+    .gamer-text-contents {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding: 1.5rem 0;
+    }
+    .gamer-text-contents h2 {
+        font-size: 2rem;
+    }
+    .gamer-text-contents p {
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        padding: 0.5rem 0 2rem;
+    }
+    .gamer-text-contents > a {
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: 1rem 2.5rem;
+        margin-bottom: 3.5rem;
+        width: auto;
+    }
+    .gamer-text-contents h3 {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .gamer-text-contents h3 > span {
+        font-size: 0.875rem;
+    }
+
+    /* todo: online game part start */
+    #online-game-part {
+        padding: 2rem 0 0;
+    }
+    .online-game-heading h2 {
+        font-size: 2.3rem;
+        line-height: 2.8rem;
+    }
+    .online-game-heading p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin-top: 1.5rem;
+    }
+    .online-game-inner {
+        gap: 2.5rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card-text p {
+        font-size: 1rem;
+        padding-top: 1rem;
+        line-height: 1.5rem;
+    }
+    .card-img-overly a {
+        font-size: 1rem;
+    }
+
+    /* todo: play instantly part start */
+    .play-instantly-container {
+        gap: 3.5rem;
+        padding: 4rem 0 6.5rem;
+        flex-direction: column;
+    }
+    .play-instantly-text-contents {
+        width: 100%;
+        text-align: center;
+    }
+    .play-instantly-text-contents h2 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+    .play-instantly-text-contents p {
+        font-size: 1rem;
+        padding-left: 0;
+    }
+    .play-instantly-img-contents {
+        padding-left: 3rem;
+        width: 100%;
+    }
+    .angela-img-width {
+        width: 30vw;
+        bottom: -2rem;
+    }
+
+    /* todo: play games part start */
+    .play-games-container {
+        gap: 3.5rem;
+        padding-bottom: 7rem;
+        flex-direction: column-reverse;
+    }
+    .play-games-img-contents {
+        padding-right: 3rem;
+        width: 100%;
+    }
+    .play-games-text-contents {
+        text-align: center;
+        width: 100%;
+    }
+    .play-games-text-contents h2 {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+    .play-games-text-contents p {
+        font-size: 1rem;
+        padding-left: 0;
+        line-height: 1.5rem;
+    }
+    .girl-with-cat-img-width {
+        width: 30vw;
+        bottom: -2rem;
+    }
+
+    /* todo: career part start */
+    .career-container {
+        flex-direction: column;
+    }
+    .career-img-contents {
+        width: 100%;
+        position: static;
+        padding-bottom: 2.5rem;
+    }
+    .career-text-contents {
+        width: 100%;
+        padding: 2.5rem 0 3.5rem;
+    }
+    .career-text-contents h2 {
+        font-size: 2.2rem;
+    }
+    .career-text-contents p {
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        padding: 0;
+        margin: 1rem 0 2.2rem;
+    }
+    .career-options ul > li {
+        font-size: 0.5rem;
+        line-height: 2.5rem;
+    }
+    .career-btn {
+        text-align: center;
+    }
+    .career-btn > a {
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: 1rem 2rem;
+    }
+
+    /* todo: game badges part start */
+    .game-badges-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3.5rem 0;
+    }
+    .game-badge > span {
+        font-size: 0.875rem;
+        line-height: 1.2rem;
+    }
+
+    /* todo: footer part start */
+    #footer-section {
+        padding: 4rem 0;
+    }
+    .footer-header > img {
+        width: 5rem;
+        margin-right: 0.5rem;
+    }
+    .footer-header span {
+        font-size: 2.2rem;
+    }
+    .footer-links {
+        grid-template-columns: repeat(3, auto);
+        gap: 1.5rem;
+    }
+    .footer-links > li > a {
+        font-size: 0.875rem;
+        line-height: 1rem;
+    }
+    .footer-icons {
+        gap: 2rem;
+        grid-template-columns: repeat(3, auto);
+    }
+    .footer-icons i {
+        font-size: 2rem;
+    }
+    .footer-policy {
+        gap: 1.75rem;
+        grid-template-columns: repeat(2, auto);
+    }
+    .footer-policy > li > a {
+        font-size: 0.875rem;
+    }
+
+    .footer-btm p {
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+    .footer-btm p > span {
+        display: block;
+    }
 }
