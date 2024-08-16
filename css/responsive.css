@@ -1,23 +1,30 @@
 @media screen and (min-width: 1400px) {
     /* Device - XXL */
     /* todo: navbar css start */
+    .container {
+        /* max-width: 90%; */
+    }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
     /* Device - XL */
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     /* Device - LG */
-    /* todo: navbar css start */
     .container {
         max-width: 90%;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    /* Device - MD */
+    /* Device - MD : Tab device */
     .container {
         max-width: 90%;
     }
     /* todo: navbar css start */
+    .nav-container {
+        flex-direction: column;
+        padding: 4rem 0;
+        gap: 2rem;
+    }
     .nav-brand a {
         gap: 12px;
     }
@@ -119,6 +126,10 @@
     }
     .online-game-heading p {
         font-size: 1.1rem;
+    }
+    .online-game-inner {
+        gap: 2.5rem;
+        grid-template-columns: repeat(2, 1fr);
     }
     .card-text p {
         font-size: 1rem;
