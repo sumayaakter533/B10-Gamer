@@ -69,48 +69,263 @@
     }
     /* todo: navbar css start */
     .nav-container {
-        padding: 2rem 0;
+        gap: 2rem;
+        padding: 4.25rem 0;
+        flex-direction: column;
     }
     .nav-brand a {
-        gap: 10px;
+        gap: 12px;
     }
     .nav-brand a > span {
-        font-size: 2.4rem;
+        font-size: 2.5rem;
     }
     .nav-content ul li a {
         font-size: 1rem;
     }
     .nav-icons {
         font-size: 1rem;
-        padding: 0.5rem 1.2rem;
+        padding: 0.6rem 1.2rem;
     }
 
     /* todo: banner css start */
     .banner-container {
-        padding: 1.25rem 0;
+        gap: 3rem;
+        padding: 3rem 0 0;
+        flex-direction: column;
+    }
+    .banner-text,
+    .banner-img {
+        width: 100%;
+        align-items: center;
+    }
+    .banner-img img {
+        padding: 0 3rem;
     }
     .banner-text h1 {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
+        margin-bottom: 2rem;
     }
     .banner-text h1 > span {
-        font-size: 4.5rem;
-        line-height: 4rem;
+        font-size: 4.6rem;
+        line-height: 5rem;
     }
     .banner-text ul {
-        margin-top: 2.4rem;
+        padding-left: 3rem;
     }
     .banner-text ul > li {
         font-size: 1rem;
+        gap: 2px;
+    }
+    .banner-text ul li > i {
+        font-size: 1rem;
+    }
+    .banner-text .play-icon {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        line-height: 15px;
     }
     .banner-text .banner-btn {
         gap: 1rem;
         margin-top: 1rem;
+        margin-right: 3rem;
     }
     .banner-text .banner-btn > a {
         font-size: 1rem;
         line-height: 1rem;
-        padding: 1rem 2rem;
+        padding: 0.875rem 1.5rem;
     }
+
+    /* todo: we're gamer part start */
+    .gamer-container {
+        flex-direction: column-reverse;
+    }
+    .gamer-text-contents {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding: 2.5rem 0 1rem;
+    }
+    .gamer-text-contents h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .gamer-text-contents p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 1rem 0 2rem;
+    }
+    .gamer-text-contents > a {
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: 1rem 2rem;
+        width: 10rem;
+    }
+    .gamer-text-contents h3 {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .gamer-text-contents h3 > span {
+        font-size: 1.2rem;
+    }
+    /* todo: we're gamer part end */
+
+    /* todo: online game part start */
+    #online-game-part {
+        padding: 1.5rem 0 0;
+    }
+    .online-game-heading {
+        margin-bottom: 2.5rem;
+    }
+    .online-game-heading h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .online-game-inner {
+        gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-text p {
+        font-size: 1rem;
+        padding-top: 1rem;
+        line-height: 1.5rem;
+    }
+    .card-img-overly a {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+    .card-img-overly a > i {
+        font-size: 2.2rem;
+    }
+    /* todo: online game part emd */
+
+    /* todo: play instantly part start */
+    .play-instantly-container {
+        padding: 4rem 0 8rem;
+        gap: 2rem;
+    }
+    .play-instantly-text-contents h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .play-instantly-text-contents p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-left: 0;
+    }
+    .play-instantly-img-contents {
+        padding-left: 3rem;
+    }
+    .angela-img-width {
+        width: 150px;
+        bottom: -2.75rem;
+    }
+    /* todo: play instantly part end */
+
+    /* todo: play games part start */
+    .play-games-container {
+        padding: 0rem 0 4.5rem;
+        gap: 2rem;
+    }
+    .play-games-text-contents h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .play-games-text-contents p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-left: 0;
+    }
+    .play-games-img-contents {
+        padding-right: 3rem;
+    }
+    .play-games-text-contents {
+        width: 45%;
+    }
+    .girl-with-cat-img-width {
+        width: 150px;
+        bottom: 0.75rem;
+    }
+    /* todo: play games part end */
+
+    /* todo: career part start */
+    .career-container {
+        flex-direction: column;
+    }
+    .career-img-contents {
+        width: 100%;
+        position: static;
+        padding-bottom: 5rem;
+    }
+    .career-text-contents {
+        width: 100%;
+        padding: 3.5rem 0;
+    }
+    .career-text-contents h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .career-text-contents p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 0.5rem 0 2rem 0;
+    }
+    .career-options ul > li {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .career-btn > a {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+    }
+    /* todo: career part end */
+
+    /* todo: game badges part start */
+    .game-badges-container {
+        grid-template-columns: repeat(3, auto);
+        padding: 4.5rem 0;
+        gap: 1.5rem;
+    }
+    .game-badge {
+        gap: 0.875rem;
+    }
+    .game-badge > span {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+    .game-badge > img {
+        width: 56px;
+    }
+    /* todo: game badges part end */
+
+    /* todo: footer part start */
+    #footer-section {
+        padding: 4rem 0;
+    }
+    .footer-header span {
+        font-size: 2.5rem;
+    }
+    .footer-links {
+        grid-template-columns: repeat(3, auto);
+        column-gap: 2.5rem;
+        row-gap: 1.5rem;
+    }
+    .footer-links > li > a {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .footer-icons i {
+        font-size: 1.8rem;
+    }
+    .footer-policy {
+        column-gap: 2.75rem;
+        row-gap: 1rem;
+        padding: 4rem 0 3rem;
+        grid-template-columns: repeat(2, auto);
+    }
+    /* todo: footer part end */
 }
 @media screen and (max-width: 575px) {
     /* Device - XS */
