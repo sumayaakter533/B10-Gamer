@@ -430,18 +430,14 @@ ol {
     padding: 1.5rem 2rem 2rem 0;
     color: #fff;
 }
-.career-options {
-    display: flex;
-    justify-content: space-between;
-}
-.career-option-country {
-    text-align: right;
-}
 .career-options ul > li {
     color: #fff;
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .career-btn > a {
     color: #ff42a5;
